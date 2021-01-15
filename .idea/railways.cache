@@ -1,4 +1,5 @@
                      Prefix Verb   URI Pattern                                                                              Controller#Action
+         hospital_surgeries GET    /hospitals/:hospital_id/surgeries(.:format)                                              surgeries#index
    surgery_doctor_surgeries GET    /surgeries/:surgery_id/doctor_surgeries(.:format)                                        doctor_surgeries#index
                             POST   /surgeries/:surgery_id/doctor_surgeries(.:format)                                        doctor_surgeries#create
  new_surgery_doctor_surgery GET    /surgeries/:surgery_id/doctor_surgeries/new(.:format)                                    doctor_surgeries#new
