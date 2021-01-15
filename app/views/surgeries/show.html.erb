@@ -1,0 +1,9 @@
+<h1><%= @surgery.title %></h1>
+<h2>Room #<%= @surgery.operating_room_number %></h2>
+
+<h3>Surgeries happening on same day</h3>
+<section id="same-day-surgeries">
+  <% @same_day_surgeries.each do |surgery| %>
+    <p class="surgery"><%= surgery.title %></p>
+  <% end %>
+</section>
