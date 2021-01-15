@@ -16,7 +16,7 @@ RSpec.describe 'As a visitor' do
 		it 'I see each surgery and all of the doctors performing that surgery' do
 			visit surgeries_path
 
-			expect(page).to have_content(@surgery.title)
+			expect(page).to have_link(@surgery.title)
 			expect(page).to have_content(@doctor1.name)
 			expect(page).to have_content(@doctor2.name)
 		end
