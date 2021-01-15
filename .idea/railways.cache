@@ -1,0 +1,16 @@
+                     Prefix Verb   URI Pattern                                                                              Controller#Action
+   surgery_doctor_surgeries GET    /surgeries/:surgery_id/doctor_surgeries(.:format)                                        doctor_surgeries#index
+                            POST   /surgeries/:surgery_id/doctor_surgeries(.:format)                                        doctor_surgeries#create
+ new_surgery_doctor_surgery GET    /surgeries/:surgery_id/doctor_surgeries/new(.:format)                                    doctor_surgeries#new
+edit_surgery_doctor_surgery GET    /surgeries/:surgery_id/doctor_surgeries/:id/edit(.:format)                               doctor_surgeries#edit
+     surgery_doctor_surgery GET    /surgeries/:surgery_id/doctor_surgeries/:id(.:format)                                    doctor_surgeries#show
+                            PATCH  /surgeries/:surgery_id/doctor_surgeries/:id(.:format)                                    doctor_surgeries#update
+                            PUT    /surgeries/:surgery_id/doctor_surgeries/:id(.:format)                                    doctor_surgeries#update
+                            DELETE /surgeries/:surgery_id/doctor_surgeries/:id(.:format)                                    doctor_surgeries#destroy
+                  surgeries GET    /surgeries(.:format)                                                                     surgeries#index
+                    surgery GET    /surgeries/:id(.:format)                                                                 surgeries#show
+         rails_service_blob GET    /rails/active_storage/blobs/:signed_id/*filename(.:format)                               active_storage/blobs#show
+  rails_blob_representation GET    /rails/active_storage/representations/:signed_blob_id/:variation_key/*filename(.:format) active_storage/representations#show
+         rails_disk_service GET    /rails/active_storage/disk/:encoded_key/*filename(.:format)                              active_storage/disk#show
+  update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:format)                                      active_storage/disk#update
+       rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
