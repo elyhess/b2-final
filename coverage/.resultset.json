@@ -1,0 +1,114 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/elyhess/turing/mod_2/b2-final/app/models/doctor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/spec/models/doctor_surgery_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/app/models/doctor_surgery.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/spec/models/hospital_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/app/models/hospital.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/spec/models/surgery_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/elyhess/turing/mod_2/b2-final/app/models/surgery.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1610727684
+  }
+}

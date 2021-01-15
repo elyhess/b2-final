@@ -41,7 +41,14 @@ group :development, :test do
   gem 'launchy'
   gem 'simplecov'
   gem 'pry'
+  gem 'nyan-cat-formatter'
   gem 'shoulda-matchers'
+  gem 'orderly'
+  gem 'rails-erd'
+  gem 'awesome_print', :require => 'ap'
+  gem 'hirb'
+  gem 'faker'
+  gem 'factory_bot_rails'
 end
 
 group :development do
