@@ -1,0 +1,10 @@
+<h1><%= @hospital.name %>'s Surgeries</h1>
+
+<% @room_numbers.each do |number| %>
+  <section id="operating-room-<%= number %>">
+    <h2>room #<%= number %></h2>
+    <% @hospital.surgeries_in_room(number).each do |surgery| %>
+      <p><%= surgery.title %></p>
+    <% end %>
+  </section>
+<% end %>
