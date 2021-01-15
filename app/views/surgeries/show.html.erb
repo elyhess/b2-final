@@ -7,3 +7,15 @@
     <p class="surgery"><%= surgery.title %></p>
   <% end %>
 </section>
+
+<h1>Add A Doctor To This Surgery</h1>
+<%= form_with(url: doctor_surgeries_path(@surgery), local: true) do |f| %>
+  <p>
+    <%= f.label :name %><br/>
+    <%= f.select(:name, options_for_select(@doctors)) %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+

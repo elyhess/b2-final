@@ -20,7 +20,7 @@ RSpec.describe 'As a visitor' do
 
 	    expect(page).to have_content(@surgery.title)
 	    expect(page).to have_content(@surgery.operating_room_number)
-
+	    save_and_open_page
 	    within('#same-day-surgeries') do
 	      expect(page).to have_content(@surgery1.title)
 	    end
