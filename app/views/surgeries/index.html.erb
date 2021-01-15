@@ -1,0 +1,10 @@
+<h1>Surgeries</h1>
+
+<section id="surgeries-">
+  <% @surgeries.each do |surgery| %>
+  <h2><%= surgery.title %></h2>
+    <% surgery.doctors.each do |doctor| %>
+      <p class="doctor"><%= doctor.name %></p>
+    <% end %>
+  <% end %>
+</section>
