@@ -8,14 +8,23 @@
   <% end %>
 </section>
 
-<h1>Add A Doctor To This Surgery</h1>
-<%= form_with(url: surgery_doctor_surgeries_path(@surgery), local: true) do |f| %>
-  <p>
-    <%= f.label :name %><br/>
-    <%= f.select(:name, options_for_select(@doctors)) %>
-  </p>
-  <p>
-    <%= f.submit "Add Doctor" %>
-  </p>
-<% end %>
+<section id="add-doctors">
+  <h1>Add A Doctor To This Surgery</h1>
+  <%= form_with(url: surgery_doctor_surgeries_path(@surgery), local: true) do |f| %>
+    <p>
+      <%= f.label :name %><br/>
+      <%= f.select(:name, options_for_select(@doctors)) %>
+    </p>
+    <p>
+      <%= f.submit "Add Doctor" %>
+    </p>
+  <% end %>
+</section>
+
+<section id="doctors">
+  <h1>Doctors:</h1>
+  <% @surgery.doctors.each do |doctor| %>
+    <p><%= doctor.name %></p>
+  <% end %>
+</section>
 
